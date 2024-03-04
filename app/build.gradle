@@ -3,6 +3,9 @@ plugins {
 }
 
 android {
+    viewBinding {
+        enabled = true
+    }
     namespace 'com.example.myapplication'
     compileSdk 33
 
